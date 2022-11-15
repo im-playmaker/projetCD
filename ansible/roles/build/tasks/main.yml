@@ -1,7 +1,7 @@
 
 ---
 #buildproject
-                - name: build app
+                - name: install 
                   shell: npm install
-		- name: build app
-		  shell: ng build
+                - name: build app
+                  shell: ng build
