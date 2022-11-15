@@ -1,7 +1,4 @@
-
 ---
-#installnodemudoles
-                - name: install node modules
-                  shell: npm install
-                - name: build app
-                  shell : npm install --save-dev @angular-devkit/build-angular && ng build
+# tasks file for build
+ - name: build app
+  shell: ng build --prod
