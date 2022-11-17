@@ -1,7 +1,8 @@
-
----
-#buildproject
-                - name: install 
-                  shell: npm install
-                - name: build app
-                  shell: ng build
+- name: log into docker hub registy
+  docker_login:
+    email: abassi.seifeddin@esprit.tn
+    username: seifeddin
+    password: dckr_pat_4p8e1_apKOEnFBBf6UcBw7K0dZs
+- name: Tag and push to docker hub
+  shell: docker push seifeddin/devops
+   
