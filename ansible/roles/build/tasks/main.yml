@@ -2,7 +2,7 @@
   docker_login:
     username: seifeddin
     password: dckr_pat_4p8e1_apKOEnFBBf6UcBw7K0dZs
-    registy_url: "https://hub.docker.com/u/"
+    registry_url: "https://hub.docker.com/u/"
 - name: Tag and push to docker hub
   shell: docker push seifeddin/devops
    
