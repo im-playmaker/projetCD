@@ -1,7 +1,7 @@
 ---
 - name: create image docker
   docker_image:
-   name: devops
+   name: seifeddin/devops
    build: 
     path: /var/lib/jenkins/workspace/MyApp
     pull: no
